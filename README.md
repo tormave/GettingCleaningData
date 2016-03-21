@@ -8,7 +8,7 @@ Download Link for the datafile
 (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ### Data
-run_analysis.R combines data found in the main directories of the "train" and "test" data sets into a single data frame. Data in the "Inertial Signals" directories is not included.
+`run_analysis.R` combines data found in the main directories of the "train" and "test" data sets into a single data frame. Data in the "Inertial Signals" directories is not included.
 
 The data frame column titles have been expanded somewhat from the original to make the data more human readable. Some of the "bandsEnergy" metrics had duplicate column names, which has been solved by appending the respective column index number to the end of the column name.
 
