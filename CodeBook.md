@@ -44,15 +44,15 @@ angle : Angle between to vectors.
 ### Reduced data set attributes
 Index | Column label | Additional explanation
 --- | --- | ---
- | 1 | subject | Test subject identifier
- | 2 | activityname | Name of activity performed, one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
- | 3 | Body Acceleration -mean-X | See features and variables explanation above
- | 4 | Body Acceleration -mean-Y | See features and variables explanation above
- | 5 | Body Acceleration -mean-Z | See features and variables explanation above
- | 6 | Body Acceleration -std-X | See features and variables explanation above
- | 7 | Body Acceleration -std-Y | See features and variables explanation above
- | 8 | Body Acceleration -std-Z | See features and variables explanation above
- | 9 | Gravity Acceleration -mean-X | See features and variables explanation above
+| 1 | subject | Test subject identifier
+| 2 | activityname | Name of activity performed, one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+| 3 | Body Acceleration -mean-X | See features and variables explanation above
+| 4 | Body Acceleration -mean-Y | See features and variables explanation above
+| 5 | Body Acceleration -mean-Z | See features and variables explanation above
+| 6 | Body Acceleration -std-X | See features and variables explanation above
+| 7 | Body Acceleration -std-Y | See features and variables explanation above
+| 8 | Body Acceleration -std-Z | See features and variables explanation above
+| 9 | Gravity Acceleration -mean-X | See features and variables explanation above
 | 10 | Gravity Acceleration -mean-Y | See features and variables explanation above
 | 11 | Gravity Acceleration -mean-Z | See features and variables explanation above
 | 12 | Gravity Acceleration -std-X | See features and variables explanation above
