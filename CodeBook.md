@@ -129,9 +129,9 @@ Index | Column label | Additional explanation
 ### Column name modifications
 The postfix acronyms are identical to those in the original dataset. The following replacements were made:
 
-Leading 't' removed.
-Leading 'f' replaced with 'FFT'.
-'()' replaced with empty string.
-'Acc' replaced with 'Acceleration'.
-'Gyro' replaced with 'Gyroscope'.
-'Mag' replaced with 'Magnitude'
+Leading 't' removed.  
+Leading 'f' replaced with 'FFT'.  
+'()' replaced with empty string.  
+'Acc' replaced with 'Acceleration'.  
+'Gyro' replaced with 'Gyroscope'.  
+'Mag' replaced with 'Magnitude'.  
