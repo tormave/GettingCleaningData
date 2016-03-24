@@ -39,8 +39,10 @@ nameColumns <- function(data, dir) {
   columns <- gsub("^t", "", columns)                ## get rid of leading t
   columns <- gsub("(t", "", columns, fixed = TRUE)
   columns <- gsub("^f", "FFT ", columns)
-  columns <- gsub("Acc", " Acceleration ", columns)
-  columns <- gsub("Gyro", " Gyroscope ", columns)
+  columns <- gsub("Acc", "Acceleration ", columns)
+  columns <- gsub("Gyro", "Gyroscope ", columns)
+  columns <- gsub("Jerk", "Jerk ", columns)
+  columns <- gsub("Mag", "Magnitude ", columns)
   
   colnames(data) <- columns
   data
@@ -59,8 +61,9 @@ nameActivities <- function(data, dir) {
 # task 2 in the assignment, call allData() first and pass its return value
 # as argument
 meansDeviations <- function(data) {
-  cols <- c(grep("std", names(data)), grep("mean", names(data)))
-  data[, cols]
+  cols <- names(data)
+  colsMeansStd <- grep("^subject$|^activityname$|std|mean", names(data))
+  data[, colsMeansStd]
 }
 
 # creates a new table by subject and activityname with means of all 
@@ -80,3 +83,14 @@ allData <- function() {
   data <- nameColumns(data, dir)       ## task 4
   data <- nameActivities(data, dir)    ## task 3
 }
+
+# This is the script portion of the file, first load necessary libraries
+library(dplyr)
+# Execute the functions, keep all data.frames in case raw data needed later
+allMeasureData <- allData()
+meansStdData <- meansDeviations(allMeasureData)
+finalData <- averages(meansStdData)
+
+# Write file
+write.table(finalData, "tidy.txt")
+names(finalData)
