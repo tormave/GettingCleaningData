@@ -4,45 +4,46 @@
 Measurements are as in the original Dataset, but with separate files combined into one. The following is derived from `features_info.txt` file in the original data set.
 
 ### Feature vectors in full data set
-Body Acceleration -XYZ
-Gravity Acceleration -XYZ
-Body Acceleration Jerk -XYZ
-Body Gyroscope -XYZ
-Body Gyroscope Jerk -XYZ
-Body Acceleration Magnitude 
-Gravity Acceleration Magnitude 
-Body Acceleration Jerk Magnitude 
-Body Gyroscope Magnitude 
-Body Gyroscope Jerk Magnitude 
-Body Acceleration -XYZ
-Body Acceleration Jerk -XYZ
-Body Gyroscope -XYZ
-Body Acceleration Magnitude 
-Body Acceleration Jerk Magnitude 
-Body Gyroscope Magnitude 
-Body Gyroscope Jerk Magnitude 
+Body Acceleration -XYZ  
+Gravity Acceleration -XYZ  
+Body Acceleration Jerk -XYZ  
+Body Gyroscope -XYZ  
+Body Gyroscope Jerk -XYZ  
+Body Acceleration Magnitude   
+Gravity Acceleration Magnitude   
+Body Acceleration Jerk Magnitude   
+Body Gyroscope Magnitude  
+Body Gyroscope Jerk Magnitude   
+Body Acceleration -XYZ  
+Body Acceleration Jerk -XYZ  
+Body Gyroscope -XYZ  
+Body Acceleration Magnitude   
+Body Acceleration Jerk Magnitude   
+Body Gyroscope Magnitude  
+Body Gyroscope Jerk Magnitude   
 
 ### Feature vector variables
-mean : Mean value
-std : Standard deviation
-mad : Median absolute deviation 
-max : Largest value in array
-min : Smallest value in array
-sma : Signal magnitude area
-energy : Energy measure. Sum of the squares divided by the number of values. 
-iqr : Interquartile range 
-entropy : Signal entropy
-arCoeff : Autorregresion coefficients with Burg order equal to 4
-correlation : correlation coefficient between two signals
-maxInds : index of the frequency component with largest magnitude
-meanFreq : Weighted average of the frequency components to obtain a mean frequency
-skewness : skewness of the frequency domain signal 
-kurtosis : kurtosis of the frequency domain signal 
-bandsEnergy : Energy of a frequency interval within the 64 bins of the FFT of each window.
-angle : Angle between to vectors.
+mean : Mean value  
+std : Standard deviation  
+mad : Median absolute deviation   
+max : Largest value in array  
+min : Smallest value in array  
+sma : Signal magnitude area  
+energy : Energy measure. Sum of the squares divided by the number of values.  
+iqr : Interquartile range  
+entropy : Signal entropy  
+arCoeff : Autorregresion coefficients with Burg order equal to 4  
+correlation : correlation coefficient between two signals  
+maxInds : index of the frequency component with largest magnitude  
+meanFreq : Weighted average of the frequency components to obtain a mean frequency  
+skewness : skewness of the frequency domain signal  
+kurtosis : kurtosis of the frequency domain signal  
+bandsEnergy : Energy of a frequency interval within the 64 bins of the FFT of each window.  
+angle : Angle between to vectors.  
 
 ### Reduced data set attributes
 Index | Column label | Additional explanation
+--- | --- | ---
  | 1 | subject | Test subject identifier
  | 2 | activityname | Name of activity performed, one of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
  | 3 | Body Acceleration -mean-X | See features and variables explanation above
