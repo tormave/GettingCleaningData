@@ -118,7 +118,7 @@ Index | Column label | Additional explanation
 | 72 | FFT Body Acceleration Magnitude -meanFreq | See features and variables explanation above
 | 73 | FFT BodyBody Acceleration Jerk Magnitude -mean | See features and variables explanation above
 | 74 | FFT BodyBody Acceleration Jerk Magnitude -std | See features and variables explanation above
-| 75 | FFT BodyBody Acceleration Jerk Magnitude -meanFreq |
+| 75 | FFT BodyBody Acceleration Jerk Magnitude -meanFreq | See features and variables explanation above
 | 76 | FFT BodyBody Gyroscope Magnitude -mean | See features and variables explanation above
 | 77 | FFT BodyBody Gyroscope Magnitude -std | See features and variables explanation above
 | 78 | FFT BodyBody Gyroscope Magnitude -meanFreq | See features and variables explanation above
